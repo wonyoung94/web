@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/subway_mark.jpg" type="image/x-icon">
+    <title>안녕하세요. SUBWAY 입니다.</title>
+</head>
+<body>
+    <img src="./assets/subway_mark2.jpg" alt="" width="600" height="300">
+    <h1>어서오세요. SUBWAY 입니다.</h1>
+
+    <p>주문서를 작성해주세요</p> 
+    <div>
+        <label for="username">이름</label>
+        <input type="text" id="username" name="un" placeholder="이름을 입력해주세요">
+    </div>
+    <br>
+    <div>
+        <label for="date">날짜</label>
+        <input type="date" id="date" name="day">
+    </div>
+
+    <hr>
+
+    <h2>샌드위치 선택</h2>
+    
+    <input type="radio" name="manu" value="애그마요" id="eggmayo">
+    <label for="eggmayo">에그마요</label>
+    <input type="radio" name="manu" value="이탈리안 비엠티" id="BMT">
+    <label for="BMT">이탈리안 비엠티</label>
+    <input type="radio" name="manu" value="BLT" id="BLT">
+    <label for="BLT">BLT</label>
+    <input type="radio" name="manu" value="미트볼" id="meetball">
+    <label for="meetball">미트볼</label>
+    <input type="radio" name="manu" value="햄" id="ham">
+    <label for="ham">햄</label>
+    <input type="radio" name="manu" value="참치" id="tuna">
+    <label for="tuna">참치</label>
+
+    <hr>
+
+    <h2>사이즈 선택</h2>
+    <!-- <input type="number" min="15" max="30" step="15"> -->
+
+        <select name="size" id="size" aria-valuenow="15">
+          <option value="15cm">15cm</option>
+          <option value="30cm">30cm</option>
+        </select>
+        <input type="submit" value="선택">
+      </form>
+    
+    <hr>
+
+    <h2>빵 선택</h2>
+        <select name="size" id="size">
+          <option value="white">화이트</option>
+          <option value="hati">하티</option>        
+          <option value="pamar">파마산오레가노</option>
+          <option value="9-grain">위트</option>
+          <option value="honey">허니오트</option>
+          <option value="flat">플랫브레드</option>
+        </select>
+        <input type="submit" value="선택">
+      </form>
+    <br>
+    <input type="checkbox" name="bake" id="bake" value="True">
+    <label for="bake">빵 토스팅 해드릴까요?</label>
+    <hr>
+
+    <h2>치즈 선택</h2>
+    <form action="#">
+        <select name="size" id="size">
+          <option value="shu">슈레드</option>
+          <option value="ame">아메리칸</option>        
+          <option value="mozza">모짜렐라</option>
+        </select>
+        <input type="submit" value="선택">
+      </form>
+    <hr>
+
+    <h2>야채 선택</h2>
+    <input type="checkbox" name="vege" id="vege1" value="True">
+    <label for="vege1">양상추</label>
+    <input type="checkbox" name="vege" id="vege2" value="True">
+    <label for="vege2">토마토</label>
+    <input type="checkbox" name="vege" id="vege3" value="True">
+    <label for="vege3">오이</label>
+    <input type="checkbox" name="vege" id="vege4" value="True">
+    <label for="vege4">피망</label>
+    <input type="checkbox" name="vege" id="vege5" value="True">
+    <label for="vege5">양파</label>
+    <input type="checkbox" name="vege" id="vege6" value="True">
+    <label for="vege6">피클</label>
+    <input type="checkbox" name="vege" id="vege7" value="True">
+    <label for="vege7">올리브</label>
+    <input type="checkbox" name="vege" id="vege8" value="True">
+    <label for="vege8">할라피뇨</label>
+
+    <hr>
+
+    <h2>소스 선택</h2>
+    <input type="checkbox" name="source" id="source1" value="True">
+    <label for="source1">랜치</label>
+    <input type="checkbox" name="source" id="source2" value="True">
+    <label for="source2">마요네즈</label>
+    <input type="checkbox" name="source" id="source3" value="True">
+    <label for="source3">스위트어니언</label>
+    <input type="checkbox" name="source" id="source4" value="True">
+    <label for="source4">허니머스타드</label>
+    <input type="checkbox" name="source" id="source5" value="True">
+    <label for="source5">스위트칠리</label>
+    <input type="checkbox" name="source" id="source6" value="True">
+    <label for="source6">바비큐</label>
+    <input type="checkbox" name="source" id="source7" value="True">
+    <label for="source7">핫칠리</label>
+
+    <hr>
+    <input type="submit" value="제출" >
+</body>
+</html>
